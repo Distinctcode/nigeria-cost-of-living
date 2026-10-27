@@ -1,6 +1,45 @@
+# Python cache files
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+
 .venv/
-__pycache__/
-*.pyc
+venv/
+env/
+
+# Jupyter Notebook temporary files
+
 .ipynb_checkpoints/
+
+# Environment variables and secrets
+
 .env
+.env.*
+!.env.example
+
+# Operating system files
+
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+
+*.tmp
+*.log
+
+# Local editor settings
+
+.vscode/
+
+# Raw Excel source data
+
+data/raw/*.xlsx
+data/raw/*.xls
+
+# Temporary Streamlit files
+
+.streamlit/secrets.toml
